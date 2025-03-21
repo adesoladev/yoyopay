@@ -1058,6 +1058,58 @@ nav ul li a:hover {
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .hero-left-section {
+    width: 90%;
+    height: 380px;
+    padding: 30px 25px;
+  }
+
+  .hero-left-section h1 {
+    font-size: 25px;
+  }
+
+  .hero-right-section {
+    height: 330px;
+  }
+
+  .how-it-works-left-section {
+    width: 78%;
+    height: 320px;
+    padding: 40px 50px 10px 30px;
+  }
+
+  .how-it-works-right-section {
+    height: 300px;
+  }
+
+  .how-it-works-right-section-image {
+    top: 9rem;
+  }
+
+  .customers-review-left-section h2 {
+    width: 75%;
+  }
+
+  .get-started-left-section img {
+    width: 330px;
+  }
+
+  .get-started-right-section h2 {
+    font-size: 22px;
+  }
+
+  .footer-left-section p {
+    width: 80%;
+  }
+
+  .tag-container .tag {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 428px) {
   .hero-section {
     padding: 0 30px 30px 20px;
@@ -1071,12 +1123,20 @@ nav ul li a:hover {
     margin-top: 30px;
   }
 
+  .simplify-payments-section {
+    padding: 30px 30px 30px 20px;
+  }
+
   .simplify-payments-left-section-content {
     width: 100%;
   }
 
   .simplify-payments-right-section p {
     width: 100%;
+  }
+
+  .how-it-works-section {
+    padding: 30px 30px 30px 20px;
   }
 
   .how-it-works-left-section {
@@ -1097,7 +1157,11 @@ nav ul li a:hover {
   }
 
   .how-it-works-right-section-image {
-    top: 8.3rem;
+    top: 7.3rem;
+  }
+
+  .customers-review-section {
+    padding: 40px 50px 10px 30px;
   }
 
   .customers-review-left-section h2 {
@@ -1108,8 +1172,16 @@ nav ul li a:hover {
     width: 100%;
   }
 
+  .get-started-right-sectio {
+    padding: 40px 50px 10px 30px;
+  }
+
   .get-started-left-section img {
     width: 330px;
+  }
+
+  .footer-section {
+    padding: 40px 50px 10px 30px;
   }
 
   .footer-left-section p {
@@ -1120,5 +1192,91 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .hero-left-section h1 {
+    font-size: 24px;
+  }
+
+  .how-it-works-left-section {
+    width: 88%;
+    height: 360px;
+    padding: 40px 30px 10px 30px;
+  }
+
+  .how-it-works-right-section {
+    height: 280px;
+  }
+
+  .how-it-works-right-section-image {
+    top: 7.2rem;
+  }
+
+  .customers-review-right-section-container {
+    padding: 20px 10px;
+  }
+
+  .customers-review-card {
+    background-color: #ffffff;
+    margin: 30px 20px;
+  }
+
+  .get-started-left-section img {
+    width: 300px;
+  }
+
+  .get-started-right-section h2 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 383px) {
+  .download-rate {
+    width: 290px;
+  }
+
+  .avatar4 {
+    position: absolute;
+    right: 14.1rem;
+  }
+
+  .avatar5 {
+    position: absolute;
+    right: 12.6rem;
+  }
+
+  .avatar6 {
+    position: absolute;
+    right: 11.1rem;
+  }
+
+  .avatar7 {
+    position: absolute;
+    right: 9.5rem;
+  }
+
+  .simplify-payments-left-section h2 {
+    width: 85%;
+  }
+
+  .how-it-works-left-section {
+    width: 85%;
+    height: 350px;
+    padding: 40px 30px 20px 30px;
+  }
+
+  .how-it-works-right-section {
+    width: 73%;
+    height: 280px;
+  }
+
+  .how-it-works-right-section-image {
+    top: 7.8rem;
+  }
+
+  .get-started-left-section img {
+    width: 290px;
   }
 }

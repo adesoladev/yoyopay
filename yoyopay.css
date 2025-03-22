@@ -920,9 +920,13 @@ nav ul li a:hover {
 }
 
 @media only screen and (max-width: 500px) {
+  nav ul {
+    display: none;
+  }
   .hero-section {
     flex-direction: column;
     gap: 10px;
+    padding: 40px 20px;
   }
 
   .hero-left-section {
@@ -935,13 +939,14 @@ nav ul li a:hover {
   }
 
   .hero-right-section {
-    width: 75%;
+    width: 78%;
     height: 360px;
     margin-top: 50px;
   }
 
   .simplify-payments-section {
     flex-direction: column;
+    padding: 40px 20px;
   }
 
   .simplify-payments-left-section {
@@ -967,10 +972,11 @@ nav ul li a:hover {
   .how-it-works-section {
     flex-direction: column;
     gap: 30px;
+    padding: 40px 20px;
   }
 
   .how-it-works-left-section {
-    height: 300px;
+    height: 320px;
     border-radius: 30px;
     padding: 40px 50px;
     background-color: #ffffff;
@@ -987,8 +993,12 @@ nav ul li a:hover {
 
   .how-it-works-right-section-image {
     position: absolute;
-    top: 10rem;
+    top: 8.7rem;
     width: 100%; /* Adjust size if needed */
+  }
+
+  .customers-review-section {
+    padding: 40px 20px;
   }
 
   .customers-review-left-section {
@@ -1021,14 +1031,19 @@ nav ul li a:hover {
 
   .get-started-section {
     flex-direction: column;
+    padding: 40px 20px;
   }
 
   .get-started-left-section img {
-    width: 400px;
+    width: 440px;
   }
 
   .get-started-right-section {
     margin: 20px 0 0 0;
+  }
+
+  .footer-section {
+    padding: 40px 20px;
   }
 
   .footer-iner-section {
@@ -1056,13 +1071,27 @@ nav ul li a:hover {
     flex-direction: column;
     margin-top: 50px;
   }
+
+  .subscribe-box .input-area {
+    width: 120px;
+  }
+
+  .subscribe-box button {
+    width: 80px;
+  }
+
+  .tag-container .tag {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 430px) {
   .hero-left-section {
     width: 90%;
     height: 380px;
-    padding: 30px 25px;
+    padding: 30px 20px;
   }
 
   .hero-left-section h1 {
@@ -1071,11 +1100,12 @@ nav ul li a:hover {
 
   .hero-right-section {
     height: 330px;
+    width: 75%;
   }
 
   .how-it-works-left-section {
     width: 78%;
-    height: 320px;
+    height: 350px;
     padding: 40px 50px 10px 30px;
   }
 
@@ -1084,15 +1114,15 @@ nav ul li a:hover {
   }
 
   .how-it-works-right-section-image {
-    top: 9rem;
+    top: 7.8rem;
   }
 
   .customers-review-left-section h2 {
-    width: 75%;
+    width: 65%;
   }
 
   .get-started-left-section img {
-    width: 330px;
+    width: 370px;
   }
 
   .get-started-right-section h2 {
@@ -1113,6 +1143,10 @@ nav ul li a:hover {
 @media only screen and (max-width: 428px) {
   .hero-section {
     padding: 0 30px 30px 20px;
+  }
+
+  .hero-left-section {
+    height: 380px;
   }
 
   .hero-left-section h1 {
@@ -1161,7 +1195,7 @@ nav ul li a:hover {
   }
 
   .customers-review-section {
-    padding: 40px 50px 10px 30px;
+    padding: 30px 30px 30px 20px;
   }
 
   .customers-review-left-section h2 {
@@ -1172,16 +1206,21 @@ nav ul li a:hover {
     width: 100%;
   }
 
-  .get-started-right-sectio {
-    padding: 40px 50px 10px 30px;
+  .get-started-section {
+    padding: 30px 30px 30px 20px;
   }
 
   .get-started-left-section img {
-    width: 330px;
+    width: 375px;
+  }
+
+  .get-started-right-section {
+    padding: 20px 5px;
+    width: 365px;
   }
 
   .footer-section {
-    padding: 40px 50px 10px 30px;
+    padding: 30px 30px 30px 20px;
   }
 
   .footer-left-section p {
@@ -1195,13 +1234,31 @@ nav ul li a:hover {
   }
 }
 
+@media only screen and (max-width: 411px) {
+  .hero-left-section {
+    height: 400px;
+  }
+
+  .hero-left-section h1 {
+    font-size: 24px;
+  }
+
+  .get-started-left-section img {
+    width: 360px;
+  }
+}
+
 @media only screen and (max-width: 393px) {
   .hero-left-section h1 {
     font-size: 24px;
   }
 
+  .hero-right-section {
+    width: 73%;
+  }
+
   .how-it-works-left-section {
-    width: 88%;
+    width: 86%;
     height: 360px;
     padding: 40px 30px 10px 30px;
   }
@@ -1214,6 +1271,10 @@ nav ul li a:hover {
     top: 7.2rem;
   }
 
+  .how-it-works-right-section {
+    width: 73%;
+  }
+
   .customers-review-right-section-container {
     padding: 20px 10px;
   }
@@ -1224,15 +1285,24 @@ nav ul li a:hover {
   }
 
   .get-started-left-section img {
-    width: 300px;
+    width: 340px;
   }
 
-  .get-started-right-section h2 {
-    font-size: 20px;
+  .get-started-right-section {
+    padding: 20px 5px;
+  }
+
+  .get-started-right-section {
+    width: 330px;
   }
 }
 
 @media only screen and (max-width: 383px) {
+  .hero-right-section {
+    height: 300px;
+    width: 73%;
+  }
+
   .download-rate {
     width: 290px;
   }
@@ -1277,6 +1347,10 @@ nav ul li a:hover {
   }
 
   .get-started-left-section img {
-    width: 290px;
+    width: 330px;
+  }
+
+  .get-started-right-section {
+    width: 320px;
   }
 }

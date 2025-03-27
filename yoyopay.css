@@ -994,7 +994,7 @@ nav ul li a:hover {
 
   .how-it-works-right-section-image {
     position: absolute;
-    top: 10rem;
+    top: 9.8rem;
     width: 100%; /* Adjust size if needed */
   }
 
@@ -1045,7 +1045,7 @@ nav ul li a:hover {
   }
 
   .footer-section {
-    /* padding: 40px 20px; */
+    padding-bottom: 30px;
   }
 
   .footer-iner-section {
@@ -1063,6 +1063,7 @@ nav ul li a:hover {
 
   .footer-right-section-links {
     width: 100%;
+    grid-gap: 40px;
   }
 
   .footer-right-section-links ul {
@@ -1116,7 +1117,7 @@ nav ul li a:hover {
   }
 
   .how-it-works-right-section-image {
-    top: 9rem;
+    top: 8.9rem;
   }
 
   .customers-review-left-section h2 {
@@ -1193,7 +1194,7 @@ nav ul li a:hover {
   }
 
   .how-it-works-right-section-image {
-    top: 8.3rem;
+    top: 8.2rem;
   }
 
   .customers-review-section {

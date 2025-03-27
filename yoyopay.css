@@ -923,10 +923,11 @@ nav ul li a:hover {
   nav ul {
     display: none;
   }
+
   .hero-section {
     flex-direction: column;
     gap: 10px;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
   }
 
   .hero-left-section {
@@ -946,7 +947,7 @@ nav ul li a:hover {
 
   .simplify-payments-section {
     flex-direction: column;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
   }
 
   .simplify-payments-left-section {
@@ -972,7 +973,7 @@ nav ul li a:hover {
   .how-it-works-section {
     flex-direction: column;
     gap: 30px;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
   }
 
   .how-it-works-left-section {
@@ -993,16 +994,17 @@ nav ul li a:hover {
 
   .how-it-works-right-section-image {
     position: absolute;
-    top: 8.7rem;
+    top: 10rem;
     width: 100%; /* Adjust size if needed */
   }
 
   .customers-review-section {
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
   }
 
   .customers-review-left-section {
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .customers-review-left-section h2 {
@@ -1031,11 +1033,11 @@ nav ul li a:hover {
 
   .get-started-section {
     flex-direction: column;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
   }
 
   .get-started-left-section img {
-    width: 440px;
+    width: 400px;
   }
 
   .get-started-right-section {
@@ -1043,7 +1045,7 @@ nav ul li a:hover {
   }
 
   .footer-section {
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
   }
 
   .footer-iner-section {
@@ -1090,8 +1092,8 @@ nav ul li a:hover {
 @media only screen and (max-width: 430px) {
   .hero-left-section {
     width: 90%;
-    height: 380px;
-    padding: 30px 20px;
+    height: 400px;
+    /* padding: 30px 20px; */
   }
 
   .hero-left-section h1 {
@@ -1114,7 +1116,7 @@ nav ul li a:hover {
   }
 
   .how-it-works-right-section-image {
-    top: 7.8rem;
+    top: 9rem;
   }
 
   .customers-review-left-section h2 {
@@ -1122,7 +1124,7 @@ nav ul li a:hover {
   }
 
   .get-started-left-section img {
-    width: 370px;
+    width: 335px;
   }
 
   .get-started-right-section h2 {
@@ -1142,12 +1144,12 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 428px) {
   .hero-section {
-    padding: 0 30px 30px 20px;
+    /* padding: 0 30px 30px 20px; */
   }
 
-  .hero-left-section {
-    height: 380px;
-  }
+  /* .hero-left-section {
+    height: 400px;
+  } */
 
   .hero-left-section h1 {
     font-size: 27px;
@@ -1158,7 +1160,7 @@ nav ul li a:hover {
   }
 
   .simplify-payments-section {
-    padding: 30px 30px 30px 20px;
+    /* padding: 30px 30px 30px 20px; */
   }
 
   .simplify-payments-left-section-content {
@@ -1170,7 +1172,7 @@ nav ul li a:hover {
   }
 
   .how-it-works-section {
-    padding: 30px 30px 30px 20px;
+    /* padding: 30px 30px 30px 20px; */
   }
 
   .how-it-works-left-section {
@@ -1191,11 +1193,11 @@ nav ul li a:hover {
   }
 
   .how-it-works-right-section-image {
-    top: 7.3rem;
+    top: 8.3rem;
   }
 
   .customers-review-section {
-    padding: 30px 30px 30px 20px;
+    /* padding: 30px 30px 30px 20px; */
   }
 
   .customers-review-left-section h2 {
@@ -1207,20 +1209,20 @@ nav ul li a:hover {
   }
 
   .get-started-section {
-    padding: 30px 30px 30px 20px;
+    /* padding: 30px 30px 30px 20px; */
   }
 
   .get-started-left-section img {
-    width: 375px;
+    width: 345px;
   }
 
   .get-started-right-section {
     padding: 20px 5px;
-    width: 365px;
+    width: 340px;
   }
 
   .footer-section {
-    padding: 30px 30px 30px 20px;
+    /* padding: 30px 30px 30px 20px; */
   }
 
   .footer-left-section p {
@@ -1236,25 +1238,37 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 411px) {
   .hero-left-section {
-    height: 400px;
+    height: 420px;
+    width: 90%;
+    /* padding: 20px 80px; */
   }
 
   .hero-left-section h1 {
     font-size: 24px;
   }
 
-  .get-started-left-section img {
-    width: 360px;
-  }
-}
-
-@media only screen and (max-width: 393px) {
-  .hero-left-section h1 {
-    font-size: 24px;
+  .download-rate {
+    width: 280px;
   }
 
-  .hero-right-section {
-    width: 73%;
+  .avatar4 {
+    position: absolute;
+    right: 13.1rem;
+  }
+
+  .avatar5 {
+    position: absolute;
+    right: 11.8rem;
+  }
+
+  .avatar6 {
+    position: absolute;
+    right: 10.2rem;
+  }
+
+  .avatar7 {
+    position: absolute;
+    right: 8.8rem;
   }
 
   .how-it-works-left-section {
@@ -1263,12 +1277,54 @@ nav ul li a:hover {
     padding: 40px 30px 10px 30px;
   }
 
+  .how-it-works-right-section-image {
+    top: 8.8rem;
+  }
+
+  .get-started-left-section img {
+    width: 330px;
+  }
+
+  .get-started-right-section {
+    padding: 20px 15px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .hero-section {
+    padding: 20px 20px;
+  }
+
+  .hero-left-section {
+    width: 85%;
+    height: 400px;
+  }
+
+  .hero-left-section h1 {
+    font-size: 24px;
+  }
+
+  .hero-right-section {
+    width: 70%;
+  }
+
+  .simplify-payments-left-section h2 {
+    width: 75%;
+  }
+
+  .how-it-works-left-section {
+    width: 90%;
+    height: 360px;
+    padding: 40px 20px 10px 20px;
+  }
+
   .how-it-works-right-section {
     height: 280px;
   }
 
   .how-it-works-right-section-image {
-    top: 7.2rem;
+    top: 8.4rem;
   }
 
   .how-it-works-right-section {
@@ -1292,15 +1348,24 @@ nav ul li a:hover {
     padding: 20px 5px;
   }
 
+  .get-started-left-section img {
+    width: 310px;
+  }
+
   .get-started-right-section {
-    width: 330px;
+    width: 300px;
   }
 }
 
 @media only screen and (max-width: 383px) {
+  .hero-left-section {
+    width: 85%;
+    height: 420px;
+  }
+
   .hero-right-section {
     height: 300px;
-    width: 73%;
+    width: 70%;
   }
 
   .download-rate {
@@ -1333,7 +1398,7 @@ nav ul li a:hover {
 
   .how-it-works-left-section {
     width: 85%;
-    height: 350px;
+    height: 400px;
     padding: 40px 30px 20px 30px;
   }
 
@@ -1343,14 +1408,14 @@ nav ul li a:hover {
   }
 
   .how-it-works-right-section-image {
-    top: 7.8rem;
+    top: 8.9rem;
   }
 
   .get-started-left-section img {
-    width: 330px;
+    width: 310px;
   }
 
   .get-started-right-section {
-    width: 320px;
+    width: 300px;
   }
 }
